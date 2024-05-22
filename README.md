@@ -30,3 +30,17 @@ GLOBAL OPTIONS:
    --html                use html/template package (default: text/template)
    --version, -v         print the version
 ```
+
+## Template helpers
+
+tatt ships with over 70 useful template helper functions provided by [Masterminds/sprig](https://github.com/Masterminds/sprig).
+See the [sprig documentation](https://masterminds.github.io/sprig/) for an overview of available functions.
+
+## Installing
+
+Install the [latest pre-compiled binary](https://github.com/michenriksen/tatt/releases/latest) for your operating 
+system, or with go:
+
+```console
+go install github.com/michenriksen/tatt/cmd/tatt@latest
+```
