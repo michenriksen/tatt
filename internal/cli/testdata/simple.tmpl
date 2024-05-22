@@ -1,0 +1,10 @@
+{{.String}}
+{{ if eq (int .Int) 42 }}42!{{ end -}}
+
+{{- range .Slice }}
+{{upper .}}
+{{- end }}
+
+{{- range $k, $v := .Map }}
+{{$k}}: {{$v}}
+{{- end }}

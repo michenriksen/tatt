@@ -1,0 +1,7 @@
+String = "Hello, World!"
+Int = 42
+Slice = [ "Hello", "World" ]
+
+[Map]
+Hello = "World"
+World = "Hello"

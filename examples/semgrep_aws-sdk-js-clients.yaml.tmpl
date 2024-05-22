@@ -1,0 +1,36 @@
+---
+rules:
+  {{- range .Clients }}
+  - id: AWS{{.Client}}
+    patterns:
+      - pattern-either:
+          - pattern-inside: |
+              $IMPORT = require('aws-sdk')
+              ...
+          - pattern-inside: |
+              import { $CLIENT } from 'aws-sdk/clients/{{.File}}'
+              ...
+      - pattern-either:
+          - pattern: new $IMPORT.{{.Client}}(...)
+          - pattern: new $CLIENT(...) 
+    message: AWS {{.Client}} detected
+    severity: INFO
+    metadata:
+      {{- with .Authentication }}
+      authentication: {{.}}
+      {{- end }}
+      {{- with .DBType }}
+      dbtype: {{.}}
+      {{- end }}
+      features:
+        - aws
+        {{- with .Features }}
+        {{- range .}}
+        - {{.}}
+        {{- end }}
+        {{- end }}
+      lang: javascript 
+    languages:
+      - javascript
+      - typescript
+  {{- end }}

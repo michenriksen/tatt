@@ -1,0 +1,785 @@
+---
+Clients:
+  - Client: AccessAnalyzer
+    File: accessanalyzer
+  - Client: Account
+    File: account
+  - Client: ACM
+    File: acm
+  - Client: ACMPCA
+    File: acmpca
+  - Client: Amp
+    File: amp
+  - Client: Amplify
+    File: amplify
+  - Client: AmplifyBackend
+    File: amplifybackend
+  - Client: AmplifyUIBuilder
+    File: amplifyuibuilder
+  - Client: APIGateway
+    File: apigateway
+    Features:
+      - api
+  - Client: ApiGatewayManagementApi
+    File: apigatewaymanagementapi
+  - Client: ApiGatewayV2
+    File: apigatewayv2
+    Features:
+      - api
+  - Client: AppConfig
+    File: appconfig
+  - Client: AppConfigData
+    File: appconfigdata
+  - Client: AppFabric
+    File: appfabric
+  - Client: Appflow
+    File: appflow
+  - Client: AppIntegrations
+    File: appintegrations
+  - Client: ApplicationAutoScaling
+    File: applicationautoscaling
+  - Client: ApplicationCostProfiler
+    File: applicationcostprofiler
+  - Client: ApplicationInsights
+    File: applicationinsights
+  - Client: AppMesh
+    File: appmesh
+  - Client: AppRunner
+    File: apprunner
+  - Client: AppStream
+    File: appstream
+  - Client: AppSync
+    File: appsync
+  - Client: ARCZonalShift
+    File: arczonalshift
+  - Client: Artifact
+    File: artifact
+  - Client: Athena
+    File: athena
+  - Client: AuditManager
+    File: auditmanager
+  - Client: AugmentedAIRuntime
+    File: augmentedairuntime
+  - Client: AutoScaling
+    File: autoscaling
+  - Client: AutoScalingPlans
+    File: autoscalingplans
+  - Client: B2bi
+    File: b2bi
+  - Client: Backup
+    File: backup
+  - Client: BackupGateway
+    File: backupgateway
+  - Client: BackupStorage
+    File: backupstorage
+  - Client: Batch
+    File: batch
+  - Client: BCMDataExports
+    File: bcmdataexports
+  - Client: Bedrock
+    File: bedrock
+  - Client: BedrockAgent
+    File: bedrockagent
+  - Client: BedrockAgentRuntime
+    File: bedrockagentruntime
+  - Client: BedrockRuntime
+    File: bedrockruntime
+  - Client: Billingconductor
+    File: billingconductor
+  - Client: Braket
+    File: braket
+  - Client: Budgets
+    File: budgets
+  - Client: Chatbot
+    File: chatbot
+  - Client: Chime
+    File: chime
+  - Client: ChimeSDKIdentity
+    File: chimesdkidentity
+  - Client: ChimeSDKMediaPipelines
+    File: chimesdkmediapipelines
+  - Client: ChimeSDKMeetings
+    File: chimesdkmeetings
+  - Client: ChimeSDKMessaging
+    File: chimesdkmessaging
+  - Client: ChimeSDKVoice
+    File: chimesdkvoice
+  - Client: CleanRooms
+    File: cleanrooms
+  - Client: CleanRoomsML
+    File: cleanroomsml
+  - Client: Cloud9
+    File: cloud9
+  - Client: CloudControl
+    File: cloudcontrol
+  - Client: CloudDirectory
+    File: clouddirectory
+  - Client: CloudFormation
+    File: cloudformation
+  - Client: CloudFront
+    File: cloudfront
+  - Client: CloudHSM
+    File: cloudhsm
+  - Client: CloudHSMV2
+    File: cloudhsmv2
+  - Client: CloudSearch
+    File: cloudsearch
+  - Client: CloudSearchDomain
+    File: cloudsearchdomain
+  - Client: CloudTrail
+    File: cloudtrail
+  - Client: CloudTrailData
+    File: cloudtraildata
+  - Client: CloudWatch
+    File: cloudwatch
+  - Client: CloudWatchEvents
+    File: cloudwatchevents
+  - Client: CloudWatchLogs
+    File: cloudwatchlogs
+  - Client: CodeArtifact
+    File: codeartifact
+  - Client: CodeBuild
+    File: codebuild
+  - Client: CodeCatalyst
+    File: codecatalyst
+  - Client: CodeCommit
+    File: codecommit
+  - Client: CodeConnections
+    File: codeconnections
+  - Client: CodeDeploy
+    File: codedeploy
+  - Client: CodeGuruProfiler
+    File: codeguruprofiler
+  - Client: CodeGuruReviewer
+    File: codegurureviewer
+  - Client: CodeGuruSecurity
+    File: codegurusecurity
+  - Client: CodePipeline
+    File: codepipeline
+  - Client: CodeStar
+    File: codestar
+  - Client: CodeStarconnections
+    File: codestarconnections
+  - Client: CodeStarNotifications
+    File: codestarnotifications
+  - Client: CognitoIdentity
+    File: cognitoidentity
+    Authentication: cognito
+  - Client: CognitoIdentityServiceProvider
+    File: cognitoidentityserviceprovider
+    Authentication: cognito
+  - Client: CognitoSync
+    File: cognitosync
+    Authentication: cognito
+  - Client: Comprehend
+    File: comprehend
+  - Client: ComprehendMedical
+    File: comprehendmedical
+  - Client: ComputeOptimizer
+    File: computeoptimizer
+  - Client: ConfigService
+    File: configservice
+  - Client: Connect
+    File: connect
+  - Client: ConnectCampaigns
+    File: connectcampaigns
+  - Client: ConnectCases
+    File: connectcases
+  - Client: ConnectContactLens
+    File: connectcontactlens
+  - Client: ConnectParticipant
+    File: connectparticipant
+  - Client: ControlCatalog
+    File: controlcatalog
+  - Client: ControlTower
+    File: controltower
+  - Client: CostExplorer
+    File: costexplorer
+  - Client: CostOptimizationHub
+    File: costoptimizationhub
+  - Client: CUR
+    File: cur
+  - Client: CustomerProfiles
+    File: customerprofiles
+  - Client: DataBrew
+    File: databrew
+  - Client: DataExchange
+    File: dataexchange
+  - Client: DataPipeline
+    File: datapipeline
+  - Client: DataSync
+    File: datasync
+  - Client: DataZone
+    File: datazone
+  - Client: DAX
+    File: dax
+  - Client: Deadline
+    File: deadline
+  - Client: Detective
+    File: detective
+  - Client: DeviceFarm
+    File: devicefarm
+  - Client: DevOpsGuru
+    File: devopsguru
+  - Client: DirectConnect
+    File: directconnect
+  - Client: DirectoryService
+    File: directoryservice
+  - Client: Discovery
+    File: discovery
+  - Client: DLM
+    File: dlm
+  - Client: DMS
+    File: dms
+  - Client: DocDB
+    File: docdb
+  - Client: DocDBElastic
+    File: docdbelastic
+  - Client: Drs
+    File: drs
+  - Client: DynamoDB
+    File: dynamodb
+    DBType: docstore
+  - Client: DynamoDBStreams
+    File: dynamodbstreams
+  - Client: EBS
+    File: ebs
+  - Client: EC2
+    File: ec2
+  - Client: EC2InstanceConnect
+    File: ec2instanceconnect
+  - Client: ECR
+    File: ecr
+  - Client: ECRPUBLIC
+    File: ecrpublic
+  - Client: ECS
+    File: ecs
+  - Client: EFS
+    File: efs
+  - Client: EKS
+    File: eks
+  - Client: EKSAuth
+    File: eksauth
+  - Client: ElastiCache
+    File: elasticache
+    DBType: docstore
+  - Client: ElasticBeanstalk
+    File: elasticbeanstalk
+  - Client: ElasticInference
+    File: elasticinference
+  - Client: ElasticTranscoder
+    File: elastictranscoder
+  - Client: ELB
+    File: elb
+  - Client: ELBv2
+    File: elbv2
+  - Client: EMR
+    File: emr
+  - Client: EMRcontainers
+    File: emrcontainers
+  - Client: EMRServerless
+    File: emrserverless
+  - Client: EntityResolution
+    File: entityresolution
+  - Client: ES
+    File: es
+  - Client: EventBridge
+    File: eventbridge
+  - Client: Evidently
+    File: evidently
+  - Client: Finspace
+    File: finspace
+  - Client: Finspacedata
+    File: finspacedata
+  - Client: Firehose
+    File: firehose
+  - Client: Fis
+    File: fis
+  - Client: FMS
+    File: fms
+  - Client: ForecastQueryService
+    File: forecastqueryservice
+  - Client: ForecastService
+    File: forecastservice
+  - Client: FraudDetector
+    File: frauddetector
+  - Client: FreeTier
+    File: freetier
+  - Client: FSx
+    File: fsx
+  - Client: GameLift
+    File: gamelift
+  - Client: Glacier
+    File: glacier
+  - Client: GlobalAccelerator
+    File: globalaccelerator
+  - Client: Glue
+    File: glue
+  - Client: Grafana
+    File: grafana
+  - Client: Greengrass
+    File: greengrass
+  - Client: GreengrassV2
+    File: greengrassv2
+  - Client: GroundStation
+    File: groundstation
+  - Client: GuardDuty
+    File: guardduty
+  - Client: Health
+    File: health
+  - Client: HealthLake
+    File: healthlake
+  - Client: IAM
+    File: iam
+  - Client: IdentityStore
+    File: identitystore
+  - Client: Imagebuilder
+    File: imagebuilder
+  - Client: ImportExport
+    File: importexport
+  - Client: Inspector
+    File: inspector
+  - Client: Inspector2
+    File: inspector2
+  - Client: InspectorScan
+    File: inspectorscan
+  - Client: InternetMonitor
+    File: internetmonitor
+  - Client: Iot
+    File: iot
+  - Client: IoT1ClickDevicesService
+    File: iot1clickdevicesservice
+  - Client: IoT1ClickProjects
+    File: iot1clickprojects
+  - Client: IoTAnalytics
+    File: iotanalytics
+  - Client: IotData
+    File: iotdata
+  - Client: IotDeviceAdvisor
+    File: iotdeviceadvisor
+  - Client: IoTEvents
+    File: iotevents
+  - Client: IoTEventsData
+    File: ioteventsdata
+  - Client: IoTFleetHub
+    File: iotfleethub
+  - Client: IoTFleetWise
+    File: iotfleetwise
+  - Client: IoTJobsDataPlane
+    File: iotjobsdataplane
+  - Client: IoTSecureTunneling
+    File: iotsecuretunneling
+  - Client: IoTSiteWise
+    File: iotsitewise
+  - Client: IoTThingsGraph
+    File: iotthingsgraph
+  - Client: IoTTwinMaker
+    File: iottwinmaker
+  - Client: IoTWireless
+    File: iotwireless
+  - Client: IVS
+    File: ivs
+  - Client: Ivschat
+    File: ivschat
+  - Client: IVSRealTime
+    File: ivsrealtime
+  - Client: Kafka
+    File: kafka
+  - Client: KafkaConnect
+    File: kafkaconnect
+  - Client: Kendra
+    File: kendra
+  - Client: KendraRanking
+    File: kendraranking
+  - Client: Keyspaces
+    File: keyspaces
+  - Client: Kinesis
+    File: kinesis
+  - Client: KinesisAnalytics
+    File: kinesisanalytics
+  - Client: KinesisAnalyticsV2
+    File: kinesisanalyticsv2
+  - Client: KinesisVideo
+    File: kinesisvideo
+  - Client: KinesisVideoArchivedMedia
+    File: kinesisvideoarchivedmedia
+  - Client: KinesisVideoMedia
+    File: kinesisvideomedia
+  - Client: KinesisVideoSignalingChannels
+    File: kinesisvideosignalingchannels
+  - Client: KinesisVideoWebRTCStorage
+    File: kinesisvideowebrtcstorage
+  - Client: KMS
+    File: kms
+    Features:
+      - kms
+  - Client: LakeFormation
+    File: lakeformation
+  - Client: Lambda
+    File: lambda
+  - Client: LaunchWizard
+    File: launchwizard
+  - Client: LexModelBuildingService
+    File: lexmodelbuildingservice
+  - Client: LexModelsV2
+    File: lexmodelsv2
+  - Client: LexRuntime
+    File: lexruntime
+  - Client: LexRuntimeV2
+    File: lexruntimev2
+  - Client: LicenseManager
+    File: licensemanager
+  - Client: LicenseManagerLinuxSubscriptions
+    File: licensemanagerlinuxsubscriptions
+  - Client: LicenseManagerUserSubscriptions
+    File: licensemanagerusersubscriptions
+  - Client: Lightsail
+    File: lightsail
+  - Client: Location
+    File: location
+  - Client: LookoutEquipment
+    File: lookoutequipment
+  - Client: LookoutMetrics
+    File: lookoutmetrics
+  - Client: LookoutVision
+    File: lookoutvision
+  - Client: M2
+    File: m2
+  - Client: MachineLearning
+    File: machinelearning
+  - Client: Macie2
+    File: macie2
+  - Client: MailManager
+    File: mailmanager
+  - Client: ManagedBlockchain
+    File: managedblockchain
+  - Client: ManagedBlockchainQuery
+    File: managedblockchainquery
+  - Client: MarketplaceAgreement
+    File: marketplaceagreement
+  - Client: MarketplaceCatalog
+    File: marketplacecatalog
+  - Client: MarketplaceCommerceAnalytics
+    File: marketplacecommerceanalytics
+  - Client: MarketplaceDeployment
+    File: marketplacedeployment
+  - Client: MarketplaceEntitlementService
+    File: marketplaceentitlementservice
+  - Client: MarketplaceMetering
+    File: marketplacemetering
+  - Client: MediaConnect
+    File: mediaconnect
+  - Client: MediaConvert
+    File: mediaconvert
+  - Client: MediaLive
+    File: medialive
+  - Client: MediaPackage
+    File: mediapackage
+  - Client: MediaPackageV2
+    File: mediapackagev2
+  - Client: MediaPackageVod
+    File: mediapackagevod
+  - Client: MediaStore
+    File: mediastore
+  - Client: MediaStoreData
+    File: mediastoredata
+  - Client: MediaTailor
+    File: mediatailor
+  - Client: MedicalImaging
+    File: medicalimaging
+  - Client: MemoryDB
+    File: memorydb
+  - Client: Mgn
+    File: mgn
+  - Client: MigrationHub
+    File: migrationhub
+  - Client: MigrationHubConfig
+    File: migrationhubconfig
+  - Client: MigrationHubOrchestrator
+    File: migrationhuborchestrator
+  - Client: MigrationHubRefactorSpaces
+    File: migrationhubrefactorspaces
+  - Client: MigrationHubStrategy
+    File: migrationhubstrategy
+  - Client: Mobile
+    File: mobile
+  - Client: MobileAnalytics
+    File: mobileanalytics
+  - Client: MQ
+    File: mq
+  - Client: MTurk
+    File: mturk
+  - Client: MWAA
+    File: mwaa
+  - Client: Neptune
+    File: neptune
+  - Client: Neptunedata
+    File: neptunedata
+  - Client: NetworkFirewall
+    File: networkfirewall
+  - Client: NetworkManager
+    File: networkmanager
+  - Client: NetworkMonitor
+    File: networkmonitor
+  - Client: Nimble
+    File: nimble
+  - Client: OAM
+    File: oam
+  - Client: Omics
+    File: omics
+  - Client: OpenSearch
+    File: opensearch
+  - Client: OpenSearchServerless
+    File: opensearchserverless
+  - Client: OpsWorks
+    File: opsworks
+  - Client: OpsWorksCM
+    File: opsworkscm
+  - Client: Organizations
+    File: organizations
+  - Client: OSIS
+    File: osis
+  - Client: Outposts
+    File: outposts
+  - Client: Panorama
+    File: panorama
+  - Client: PaymentCryptography
+    File: paymentcryptography
+  - Client: PaymentCryptographyData
+    File: paymentcryptographydata
+  - Client: PcaConnectorAd
+    File: pcaconnectorad
+  - Client: Personalize
+    File: personalize
+  - Client: PersonalizeEvents
+    File: personalizeevents
+  - Client: PersonalizeRuntime
+    File: personalizeruntime
+  - Client: PI
+    File: pi
+  - Client: Pinpoint
+    File: pinpoint
+  - Client: PinpointEmail
+    File: pinpointemail
+  - Client: PinpointSMSVoice
+    File: pinpointsmsvoice
+  - Client: PinpointSMSVoiceV2
+    File: pinpointsmsvoicev2
+  - Client: Pipes
+    File: pipes
+  - Client: Polly
+    File: polly
+  - Client: Pricing
+    File: pricing
+  - Client: PrivateNetworks
+    File: privatenetworks
+  - Client: Proton
+    File: proton
+  - Client: QBusiness
+    File: qbusiness
+  - Client: QConnect
+    File: qconnect
+  - Client: QLDB
+    File: qldb
+  - Client: QLDBSession
+    File: qldbsession
+  - Client: QuickSight
+    File: quicksight
+  - Client: RAM
+    File: ram
+  - Client: Rbin
+    File: rbin
+  - Client: RDS
+    File: rds
+    DBType: rmdb
+  - Client: RDSDataService
+    File: rdsdataservice
+  - Client: Redshift
+    File: redshift
+  - Client: RedshiftData
+    File: redshiftdata
+  - Client: RedshiftServerless
+    File: redshiftserverless
+  - Client: Rekognition
+    File: rekognition
+  - Client: Repostspace
+    File: repostspace
+  - Client: Resiliencehub
+    File: resiliencehub
+  - Client: ResourceExplorer2
+    File: resourceexplorer2
+  - Client: ResourceGroups
+    File: resourcegroups
+  - Client: ResourceGroupsTaggingAPI
+    File: resourcegroupstaggingapi
+  - Client: RoboMaker
+    File: robomaker
+  - Client: RolesAnywhere
+    File: rolesanywhere
+  - Client: Route53
+    File: route53
+  - Client: Route53Domains
+    File: route53domains
+  - Client: Route53Profiles
+    File: route53profiles
+  - Client: Route53RecoveryCluster
+    File: route53recoverycluster
+  - Client: Route53RecoveryControlConfig
+    File: route53recoverycontrolconfig
+  - Client: Route53RecoveryReadiness
+    File: route53recoveryreadiness
+  - Client: Route53Resolver
+    File: route53resolver
+  - Client: RUM
+    File: rum
+  - Client: S3
+    File: s3
+  - Client: S3Control
+    File: s3control
+  - Client: S3Outposts
+    File: s3outposts
+  - Client: SageMaker
+    File: sagemaker
+  - Client: SagemakerEdge
+    File: sagemakeredge
+  - Client: SageMakerFeatureStoreRuntime
+    File: sagemakerfeaturestoreruntime
+  - Client: SageMakerGeospatial
+    File: sagemakergeospatial
+  - Client: SageMakerMetrics
+    File: sagemakermetrics
+  - Client: SageMakerRuntime
+    File: sagemakerruntime
+  - Client: SavingsPlans
+    File: savingsplans
+  - Client: Scheduler
+    File: scheduler
+  - Client: Schemas
+    File: schemas
+  - Client: SecretsManager
+    File: secretsmanager
+  - Client: SecurityHub
+    File: securityhub
+  - Client: SecurityLake
+    File: securitylake
+  - Client: ServerlessApplicationRepository
+    File: serverlessapplicationrepository
+  - Client: ServiceCatalog
+    File: servicecatalog
+  - Client: ServiceCatalogAppRegistry
+    File: servicecatalogappregistry
+  - Client: ServiceDiscovery
+    File: servicediscovery
+  - Client: ServiceQuotas
+    File: servicequotas
+  - Client: SES
+    File: ses
+    Features:
+      - email
+  - Client: SESV2
+    File: sesv2
+    Features:
+      - email
+  - Client: Shield
+    File: shield
+  - Client: Signer
+    File: signer
+  - Client: SimpleDB
+    File: simpledb
+    DBType: docstore
+  - Client: SimSpaceWeaver
+    File: simspaceweaver
+  - Client: SMS
+    File: sms
+  - Client: Snowball
+    File: snowball
+  - Client: SnowDeviceManagement
+    File: snowdevicemanagement
+  - Client: SNS
+    File: sns
+    Features:
+      - email
+  - Client: SQS
+    File: sqs
+  - Client: SSM
+    File: ssm
+  - Client: SSMContacts
+    File: ssmcontacts
+  - Client: SSMIncidents
+    File: ssmincidents
+  - Client: SsmSap
+    File: ssmsap
+  - Client: SSO
+    File: sso
+    Authentication: aws_sso
+  - Client: SSOAdmin
+    File: ssoadmin
+  - Client: SSOOIDC
+    File: ssooidc
+  - Client: StepFunctions
+    File: stepfunctions
+  - Client: StorageGateway
+    File: storagegateway
+  - Client: STS
+    File: sts
+    Authentication: aws_sts
+  - Client: SupplyChain
+    File: supplychain
+  - Client: Support
+    File: support
+  - Client: SupportApp
+    File: supportapp
+  - Client: SWF
+    File: swf
+  - Client: Synthetics
+    File: synthetics
+  - Client: Textract
+    File: textract
+  - Client: TimestreamInfluxDB
+    File: timestreaminfluxdb
+  - Client: TimestreamQuery
+    File: timestreamquery
+  - Client: TimestreamWrite
+    File: timestreamwrite
+  - Client: Tnb
+    File: tnb
+  - Client: TranscribeService
+    File: transcribeservice
+  - Client: Transfer
+    File: transfer
+  - Client: Translate
+    File: translate
+  - Client: TrustedAdvisor
+    File: trustedadvisor
+  - Client: VerifiedPermissions
+    File: verifiedpermissions
+  - Client: VoiceID
+    File: voiceid
+  - Client: VPCLattice
+    File: vpclattice
+  - Client: WAF
+    File: waf
+  - Client: WAFRegional
+    File: wafregional
+  - Client: WAFV2
+    File: wafv2
+  - Client: WellArchitected
+    File: wellarchitected
+  - Client: Wisdom
+    File: wisdom
+  - Client: WorkDocs
+    File: workdocs
+  - Client: WorkLink
+    File: worklink
+  - Client: WorkMail
+    File: workmail
+  - Client: WorkMailMessageFlow
+    File: workmailmessageflow
+  - Client: WorkSpaces
+    File: workspaces
+  - Client: WorkSpacesThinClient
+    File: workspacesthinclient
+  - Client: WorkSpacesWeb
+    File: workspacesweb
+  - Client: XRay
+    File: xray
